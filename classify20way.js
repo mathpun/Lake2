@@ -2,8 +2,14 @@ var task;
 $(document).ready(function() {
 
 	// Parameters
+<<<<<<< HEAD
 	var ntask = 6; // how many different tasks (alphabets) are there?
 	var nway = 2; // n-way classification tasl
+=======
+	var ntask = 16; // how many different tasks (alphabets) are there?
+	var nway = 4; // n-way classification tasl
+	var ntest = 15; // just a test variable to see how to make more trials
+>>>>>>> master
 
 	// Selected demo images
 	//latin_id = 2;
@@ -27,7 +33,11 @@ $(document).ready(function() {
 	//took out line 18,19 added line 16, shit, turns out you need spec.list_condition 
 	//var spec = {};
 	var spec = {};
+<<<<<<< HEAD
 	spec.list_condition = ['a','a'];
+=======
+	spec.list_condition = ['a'];
+>>>>>>> master
 
 	task = classification(spec);
 	var condition = task.getCondition();
